@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shrutika's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+ <!-- Responsive Navigation Bar -->
+
+<header class="top-header">
+  <div class="logo">Shrutika</div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <ul id="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</header>
+
+  <header>
+    <h1>Hello, It's Me <span class="highlight">SHRUTIKA SHRIRANG</span></h1>
+    <p>I'm a <span class="highlight">Frontend Developer</span></p>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+
+    <a href="Shrutika resume.pdf" class="btn" download>Download Resume</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello, it's me Shrutika Shrirang, and I'm a passionate Frontend and Android Developer. I love creating beautiful, responsive, and user-friendly websites and mobile apps. My work reflects creativity and attention to detail, backed by strong knowledge of web and mobile technologies.
+I have hands-on experience with various programming languages and tools such as C, C++, Java, Python, HTML, CSS, JavaScript, Canva Work, MySQL, and more. I'm always eager to learn new skills, take on challenges, and grow in the tech world.
+Let’s build something amazing together! 🚀</p>
+  </section>
+
+  <section id="about">
+  <div class="about-container">
+    <img src="myimage.jpeg" alt="Shrutika Shrirang" class="profile-pic" />
+    
+    <p>Hello, it's me <strong>Shrutika Shrirang</strong> and I'm a passionate <strong>Frontend and Android Developer</strong>...</p>
+
+    <!-- your existing text and icons -->
+  </div>
+</section>
+
+  <!-- Home Section -->
+  <p class="typing-text">I am a <span id="typed-text"></span></p>
+
+  <!-- Skills Section -->
+<section id="skills">
+  <h2 class="section-title">My Skills</h2>
+  <div class="skills-container">
+    <div class="skill-card">
+      <i class="fab fa-html5"></i>
+      <p>HTML</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-css3-alt"></i>
+      <p>CSS</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-js"></i>
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-react"></i>
+      <p>React</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-java"></i>
+      <p>Java</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-database"></i>
+      <p>MySQL</p>
+    </div>
+  </div>
+</section>
+
+<div class="skill-card" data-aos="fade-up"></div>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <h2>My Projects</h2>
+  <div class="project-cards">
+    
+    <div class="card">
+      <img src="image copy 4.png" alt="Portfolio Website">
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal portfolio using HTML, CSS, JavaScript.</p>
+      <a href="https://github.com/shrutikashrirang/portfolio" target="_blank">GitHub</a>
+    </div>
+
+    <div class="card">
+      <img src="image copy.png" alt="Quiz App">
+      <h3>Quiz App</h3>
+      <p>Interactive quiz using React & JavaScript.</p>
+      <a href="https://github.com/shrutikashrirang/quiz-app" target="_blank">GitHub</a>
+    </div>
+
+    <div class="card">
+      <img src="image copy 5.png" alt="Chat UI">
+      <h3>Chat App UI</h3>
+      <p>Frontend design for real-time chat app using HTML/CSS/JS.</p>
+      <a href="https://github.com/shrutikashrirang/chat-ui" target="_blank">GitHub</a>
+    </div>
+
+    <a href="https://your-demo.netlify.app" target="_blank"></a>
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: shrutikashrirang@gmail.com</p>
+    <p>Phone: +91-955********</p>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+    <p id="form-status" class="status-msg"></p>
+  </form>
+</section>
+
+<button id="darkModeToggle" class="dark-mode-btn">🌙</button>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top">⬆️</button>
+
+<!-- Font Awesome CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+<section class="hero">
+  <h1><span class="highlight">SHRUTIKA SHRIRANG</span></h1>
+  <p> <span class="highlight">You can also follow me on the following platform. Go and i have a look!</span></p>
+
+  <div class="social-icons">
+    <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+
+</section>
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<div class="skill-card" data-aos="fade-up">
+
+<!-- Bottom Footer -->
+<footer class="bottom-footer">
+  <p>Made with ❤️ by <span>Shrutika Shrirang</span></p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
